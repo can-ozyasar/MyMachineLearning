@@ -1,0 +1,13 @@
+QT designer ile arayüz tasarımı yapılabilir.
+bir framework ile istenilen platformda uygulama geliştirilebilir.
+https://www.qt.io/
+
+
+ANACONDA DİZİNİ ALTINDA ŞU ADRESTE 
+C:\Users\canoz\anaconda3\Library\bin/designer.exe
+
+
+
+qt den python a çevirmek için 
+
+pyuic5 -x arayuzTasarimQT.ui -o test.py    ile çevrlir 
