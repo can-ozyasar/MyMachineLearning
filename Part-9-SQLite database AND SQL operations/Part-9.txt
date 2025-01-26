@@ -1,0 +1,46 @@
+Commit işlemi yapılmadığı takdirde yapılmaya çalışılan işlem database de işleme alımaz yani database yi etkilmez.
+Diğer işlemler için klasik sql komutları kullanılır .
+
+------------------------------------------------
+
+EKLEME
+cursor.execute("INSERT INTO kitaplar VALUES ('Da Vinci Sifresi','Dan Brown',1000,495)")
+------------------------------------------------
+GÜNCELLEME
+
+cursor.execute("UPDATE kitaplar SET kitapAdi='Dune' WHERE kitapno=1001")
+sqlite_connection.commit()
+
+------------------------------------------------
+
+
+SİLME
+
+cursor.execute("DELETE FROM kitaplar WHERE kitapno=1003")
+sqlite_connection.commit()
+
+------------------------------------------------
+
+
+
+VERİ ÇEKME 
+cursor.execute("SELECT * FROM kitaplar")
+sqlite_connection.commit()
+
+
+#çekilen değerlerin saklamak için bir değişken oluşturuyoruz.
+cekilen_veriler=cursor.fetchall() #lliste şekilnde
+
+------------------------------------------------
+
+KOŞULLU VERİ ÇEKME 
+cursor.execute("SELECT * FROM kitaplar WHERE Yazar='Dan Brown'")
+
+
+
+--------------------------------------------------
+
+#program bitişinde bağlantı kapatılmaalıdır .
+if (sqlite_connection):
+    sqlite_connection.close()
+    print("The SQLite connection is closed...")

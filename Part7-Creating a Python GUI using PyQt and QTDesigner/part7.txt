@@ -11,3 +11,5 @@ C:\Users\canoz\anaconda3\Library\bin/designer.exe
 qt den python a çevirmek için 
 
 pyuic5 -x arayuzTasarimQT.ui -o test.py    ile çevrlir 
+
+
