@@ -1,0 +1,5 @@
+ilk google trends analizimiz türkiye ve abd deki birkaç farklı proglamlama dilinine trendlerini zamana göre kıyaslamak ve bunları bir grafiğe aktarmak olacak
+daha sonra hem bu verileri hem de grafiği bilgisayarımıza kaydedeceğiz 
+
+ikinci google trends analizinde ise yine türkiyede ve abd deki python keywordu ile igili en trend olan ilgili arama keywordunu bulacağız daha sonra da bizim google search keyword umuz ile alakalı diğer arama sonuçlarına bakacağız daha son
+python un alt sonuçlarından en trend arama sonuçlarını bulacağız 
