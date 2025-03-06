@@ -1,0 +1,31 @@
+### **Linear Regresyon: Kısa ve Öz Öğretici Bilgi**  
+
+
+
+/ veri seti hazırlamak  işin en önemli kısmı 
+veri seti ne kadar büyük ve iyi dağılmış olursa sonuçlar o kadar iyi çalışır
+
+
+
+Linear regresyon, makine öğrenmesinde en temel ve en çok kullanılan tahmin modellerinden biridir. Ana mantığı, bağımsız değişkenler (girdiler) ile bağımlı değişken (çıktı) arasındaki doğrusal ilişkiyi belirleyerek bir tahmin yapmaktır.  
+
+**Matematiksel Model:**  
+\( y = mx + b \)  
+Burada:  
+- \( y \): Tahmin edilen değer (bağımlı değişken)  
+- \( x \): Girdi değeri (bağımsız değişken)  
+- \( m \): Eğim (verinin nasıl değiştiğini gösterir)  
+- \( b \): Sabit terim (y ekseni kesişimi)  
+
+**Öğrenme Süreci:**  
+1. **Hata Fonksiyonu (Loss Function)**: Gerçek değer ile modelin tahmin ettiği değer arasındaki fark hesaplanır. En yaygın kullanılan hata fonksiyonu **MSE (Mean Squared Error)**’dir.  
+2. **Optimizasyon**: Hata en aza indirilmek istenir. Bunu yapmak için **Gradient Descent** (Gradyan İnişi) gibi algoritmalar kullanılır.  
+3. **Model Güncelleme**: Eğim ve sabit terim tekrar hesaplanır, model daha doğru tahminler yapmaya başlar.  
+
+**Özetle:**  
+Linear regresyon, veriler arasında bir **doğrusal ilişki** bulmaya çalışır. En iyi tahmini yapmak için **hata hesaplar, optimizasyon yapar ve modeli günceller**. Eğer veriler doğrusal bir örüntüye sahipse, oldukça etkili bir modeldir.  
+
+**Hatırlatma İçin Kısa Kod:**  
+- **Eğim + Sabit Terim = Doğruyu Çizer**  
+- **Hata Hesapla → Azalt → En İyi Model**  
+- **Doğrusal mı? O zaman Linear Regresyon iyi çalışır!**

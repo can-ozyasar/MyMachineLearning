@@ -1,4 +1,6 @@
+ 
 import cv2
+print("hwelll")
 
 # Yüz tanıma için gerekli Haarcascade xml dosyası 
 cizimxml = "haarcascade_frontalface_default.xml"
