@@ -1,0 +1,11 @@
+basit anlamda grafikteki noktaları inceler yeni eklenen nokta hangi gruba daha yakın ise 
+onu da o gruba ekleyerek sonuca ulaşır .
+vereceğimiz k  tane en yakın nokta ile karşılaştırır
+
+
+
+örneğimizde çeşitli verilerden oluşan grafikler bulunmakta burdan yola çıkarak sonuca ulaşır .
+Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Outcome
+ verileri kullanılıyor hintli gerçek insanlardan alıınmış veriler
+
+gerçek diyabet verileri kullanmaktayız kaggle.com dan alındı 
