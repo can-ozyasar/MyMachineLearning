@@ -1,0 +1,39 @@
+### **Lojistik Regresyon Nedir ve Ne İşe Yarar?**  
+
+Lojistik regresyon, istatistik ve makine öğrenmesinde yaygın olarak kullanılan bir sınıflandırma algoritmasıdır. Adında "regresyon" kelimesi geçse de, aslında bir **sınıflandırma yöntemi** olarak kullanılır. En yaygın kullanım alanı, **ikili (binary) sınıflandırma** problemleridir, yani bir örneğin iki farklı sınıftan birine ait olup olmadığını belirlemektir (örneğin, "evet" veya "hayır", "hastalık var" veya "hastalık yok" gibi).
+
+#### **Nasıl Çalışır?**
+Lojistik regresyon, doğrusal regresyona benzer bir şekilde bir doğrusal model oluşturur. Ancak, çıktıyı **0 ile 1 arasında** olacak şekilde sıkıştırmak için **lojistik (sigmoid) fonksiyonunu** kullanır. Bu sayede, model bir veri noktasının belirli bir sınıfa ait olma olasılığını hesaplar.
+
+Sigmoid fonksiyonu şu şekilde tanımlanır:
+
+\[
+\sigma(z) = \frac{1}{1 + e^{-z}}
+\]
+
+Burada \( z \), girdilerin ağırlıklı toplamıdır:
+
+\[
+z = w_1x_1 + w_2x_2 + ... + w_nx_n + b
+\]
+
+Sigmoid fonksiyonu sayesinde modelin çıktısı **olasılık değerine** dönüşür ve belirlenen bir eşik değerine göre sınıf etiketi atanır. Genellikle eşik değeri **0.5** olarak seçilir. Eğer modelin verdiği olasılık **0.5'ten büyükse** sınıf **1**, değilse sınıf **0** olarak kabul edilir.
+
+#### **Lojistik Regresyonun Kullanım Alanları**
+Lojistik regresyon, birçok farklı alanda kullanılmaktadır:
+- **Tıp:** Hastalık teşhisi (örneğin, kanser olup olmama tahmini).
+- **Finans:** Müşterinin kredi ödeyip ödeyemeyeceğini tahmin etme.
+- **Pazarlama:** Bir müşterinin ürünü satın alıp almayacağını tahmin etme.
+- **Spam Filtreleme:** Gelen e-postanın spam olup olmadığını belirleme.
+
+#### **Avantajları ve Dezavantajları**
+✅ **Avantajları:**
+- Basit ve hızlıdır, hesaplama maliyeti düşüktür.
+- Sonuçları olasılıksal olarak yorumlamak mümkündür.
+- Aşırı öğrenmeye (overfitting) karşı nispeten dayanıklıdır.
+
+❌ **Dezavantajları:**
+- Doğrusal ayrılabilir olmayan verilerde performansı düşüktür.
+- Büyük veri kümelerinde performansı daha karmaşık algoritmalara göre daha zayıf olabilir.
+
+Sonuç olarak, lojistik regresyon temel bir sınıflandırma algoritması olup, özellikle **ikili sınıflandırma** problemlerinde güçlü ve anlaşılır bir yöntem olarak sıkça tercih edilir.
