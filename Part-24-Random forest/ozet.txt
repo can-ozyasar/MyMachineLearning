@@ -1,0 +1,21 @@
+### **Random Forest Nedir?**  
+
+**Random Forest**, birçok **Decision Tree (Karar Ağacı)** kullanarak daha güçlü ve dengeli tahminler yapan bir topluluk (ensemble) öğrenme yöntemidir.  
+
+#### **Nasıl Çalışır?**  
+1. **Rastgele veri alt kümeleri** oluşturulur (Bootstrap Sampling).  
+2. Her alt küme için **farklı karar ağaçları** eğitilir.  
+3. **Sınıflandırma:** Ağaçların çoğunluk oyu alınır.  
+4. **Regresyon:** Ağaçların tahminlerinin ortalaması alınır.  
+
+#### **Avantajları**  
+✅ Aşırı öğrenmeye (Overfitting) karşı dayanıklıdır.  
+✅ Gürültülü verilerle daha iyi çalışır.  
+✅ Yüksek doğruluk sağlar.  
+
+#### **Dezavantajları**  
+❌ Hesaplama maliyeti yüksektir.  
+❌ Yorumlaması tek karar ağacına göre daha zordur.  
+
+💡 **Özet:**  
+Random Forest, karar ağaçlarının güçlerini birleştirerek daha güvenilir ve doğru tahminler yapan güçlü bir makine öğrenmesi algoritmasıdır.

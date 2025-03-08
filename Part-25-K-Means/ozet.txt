@@ -1,0 +1,21 @@
+### **K-Means Nedir?**  
+ham veriyi kendi kendine sınıflara ayırır
+yuvarlak şekiiller (centroid) kullanılır
+**K-Means**, verileri **K** adet kümeye ayıran popüler bir **kümeleme (clustering)** algoritmasıdır. **Denetimsiz öğrenme** yöntemlerinden biridir.  
+
+#### **Nasıl Çalışır?**  
+1. **K merkezi (centroid)** rastgele seçilir.  
+2. **Her veri noktası**, en yakın merkeze atanır.  
+3. **Merkezler güncellenir** (Ortalama alınarak).  
+4. **Adımlar tekrar edilir** ve merkezler değişmeyince algoritma durur.  
+
+#### **Avantajları**  
+✅ Büyük veri setlerinde hızlı çalışır.  
+✅ Kolay ve anlaşılırdır.  
+
+#### **Dezavantajları**  
+❌ K değeri önceden belirlenmelidir.  
+❌ Küresel olmayan veri yapılarında iyi çalışmaz.  
+
+💡 **Özet:**  
+K-Means, verileri belirli gruplara ayırarak analiz etmeyi sağlayan etkili bir kümeleme algoritmasıdır.

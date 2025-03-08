@@ -1,0 +1,30 @@
+
+scikit-learn kütüphanesi decision tree'lerin düzgün çalışması için herşeyin rakamlsal olmasını bekliyor
+
+
+
+### **Decision Trees (Karar Ağaçları)**  
+
+**Decision Tree (Karar Ağacı)**, sınıflandırma ve regresyon problemlerinde kullanılan popüler bir makine öğrenmesi algoritmasıdır. Veriyi dallara ayırarak karar verir ve her düğümde bir koşul testi yaparak ilerler.  
+
+#### **Nasıl Çalışır?**  
+1. **Kök düğüm (Root Node)** ile başlar: Veriyi en iyi şekilde bölen özellik seçilir.  
+2. **İç düğümler (Internal Nodes)**: Koşullara göre veri alt gruplara ayrılır.  
+3. **Yaprak düğümler (Leaf Nodes)**: Nihai karar sınıfları veya tahmin edilen değerleri içerir.  
+
+#### **Özellik Seçimi İçin Kullanılan Ölçütler**  
+- **Gini Impurity:** Verinin saflığını ölçer.  
+- **Entropy (Bilgi Kazancı):** Veri ayrımındaki bilgi kazancını hesaplar.  
+- **Variance Reduction:** Regresyon problemlerinde kullanılır.  
+
+#### **Avantajları**  
+✅ Yorumlanması kolaydır.  
+✅ Hem sınıflandırma hem de regresyon için uygundur.  
+✅ Eksik verilerle çalışabilir.  
+
+#### **Dezavantajları**  
+❌ Aşırı öğrenmeye (Overfitting) yatkındır.  
+❌ Veri gürültüsüne duyarlıdır.  
+
+💡 **Özet:**  
+Karar ağaçları, veriyi dallara ayırarak analiz eden güçlü bir yöntemdir. Daha iyi performans için **Random Forest** gibi topluluk yöntemleriyle birleştirilebilir.
