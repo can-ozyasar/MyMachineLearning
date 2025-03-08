@@ -1,0 +1,34 @@
+MACHİNE LEARNİNG
+
+
+
+SUPERVİSED LEARNİNG:(denetlenen öğrenme modeli )
+
+Genel olarak girdi ve çıktılardan oluşan veri setimizi makineye tanıtırız .makine bunlardan bir desen çıkarır ve öğrenir .bu sayede yeni değerler üretme becerisi kazanmış olur 
+
+------------------------------------------------------------------------------
+DK19 
+
+Binary classification:
+
+ikili sınıflandırma anlamına geliyor .sınıflandırılacak şey 2 gruptan bitrine ait olabilir.
+örnek;
+kedi yada köpek        ---       pozitif yada negatif gibi
+
+
+
+Multiclass classification:
+
+ikiden fazla grup var ise kullanılır .
+örnek :
+
+kedi, köpek ,tavşan      --------       elma armut erik 
+
+------------------------------------------------------------------------------------
+
+Tüm veri eğitim için kullanılırsa program yeni sorulara nasıl yanıt verir bunu kestirmek zor olabilir.
+
+o yüzden veri setimizi  training dataset , validation dataset, test dataset olarak üç parşaya ayırıyoruz 
+%60 %20 %20   yada  %80 %10 %10   olacak şekilde ayırabilirz 
+
+
